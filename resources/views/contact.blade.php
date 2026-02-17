@@ -2,20 +2,17 @@
     <x-slot:title>{{ $title }}</x-slot>
     
     <section class="py-8 px-4 mx-auto max-w-screen-xl lg:py-12">
-        {{-- Header Section --}}
         <div class="text-center mb-12">
-            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">Get in <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Touch</span></h2>
+            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">Get in <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Touch</span></h2>
             <p class="mt-4 text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">Ada ide project atau sekadar mau menyapa? Pintu digital saya selalu terbuka untuk diskusi seru seputar RPL!</p>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
             
-            {{-- Bagian Info Kontak (The Dark Card) --}}
             <div class="lg:col-span-1 relative group">
                 <div class="absolute -inset-1 bg-gradient-to-b from-blue-600 to-cyan-500 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                 
                 <div class="relative h-full bg-gray-900 rounded-3xl p-8 text-white flex flex-col shadow-2xl overflow-hidden">
-                    {{-- Decorative Circle --}}
                     <div class="absolute -top-10 -right-10 w-32 h-32 bg-blue-500/20 rounded-full blur-3xl"></div>
                     
                     <div class="relative z-10 flex-grow">
@@ -44,7 +41,6 @@
                         </div>
                     </div>
 
-                    {{-- Social Media Icons --}}
                     <div class="relative z-10 pt-10 mt-10 border-t border-gray-800">
                         <p class="text-sm text-gray-400 mb-4 font-semibold uppercase tracking-widest">Follow Me</p>
                         <div class="flex space-x-3">
@@ -56,9 +52,7 @@
                 </div>
             </div>
 
-            {{-- Bagian Form (The Clean Card) --}}
             <div class="lg:col-span-2 bg-white dark:bg-gray-800 rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100 dark:border-gray-700 relative overflow-hidden">
-                {{-- Subtle background decoration --}}
                 <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-blue-50 dark:bg-blue-900/10 rounded-full blur-3xl"></div>
 
                 <form action="#" method="POST" class="relative z-10 space-y-8">

@@ -3,7 +3,7 @@
 
     <div class="py-12 px-4 mx-auto max-w-screen-xl lg:py-16">
         {{-- Main Card --}}
-        <div class="bg-gray-50 dark:bg-gray-800 rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 dark:border-gray-700">
+        <div class="p-8 md:p-12">
             
             <div class="grid gap-12 lg:grid-cols-2 items-center">
                 {{-- Left Side: Text --}}
@@ -12,7 +12,7 @@
                         <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
                             Student & Developer
                         </span>
-                        <h1 class="mt-4 text-4xl font-extrabold tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                        <h1 class="mt-4 text-4xl font-extrabold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
                             Hello, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Ryn</span>
                         </h1>
                     </div>

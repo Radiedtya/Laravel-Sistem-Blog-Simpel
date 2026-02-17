@@ -2,13 +2,13 @@
     <x-slot:title>{{ $title }}</x-slot>
 
     {{-- Hero Section --}}
-    <section class="px-4 py-20 md:px-0 bg-white dark:bg-gray-900 rounded-[3rem]">
+    <section class="px-4 py-20 md:px-0 ">
         <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
             <div class="flex flex-wrap items-center sm:-mx-3">
                 {{-- Text Content --}}
                 <div class="w-full md:w-1/2 md:px-3">
                     <div class="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
-                        <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+                        <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                             <span class="block xl:inline">Beautiful Pages to</span>
                             <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500 xl:inline">Tell Your Story!</span>
                         </h1>
@@ -17,7 +17,7 @@
                         </p>
                         <div class="relative flex flex-col sm:flex-row sm:space-x-4">
                             <a
-                                href="/posts"
+                                href="#"
                                 class="flex items-center justify-center w-full px-8 py-4 mb-3 text-lg text-white bg-blue-600 rounded-2xl sm:mb-0 hover:bg-blue-700 sm:w-auto shadow-lg shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-1">
                                 Get Started
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -48,11 +48,11 @@
     </section>
 
     {{-- Feature/Experience Section --}}
-    <section class="py-20 bg-gray-50 dark:bg-gray-800 rounded-[3rem] my-10 mx-4 md:mx-10 shadow-inner">
+    <section class="py-20 my-10 mx-4 md:mx-10">
         <div class="max-w-6xl px-10 mx-auto">
             <div class="flex flex-col md:flex-row items-center justify-between gap-12">
                 <div class="w-full md:w-1/2">
-                    <h2 class="text-5xl font-extrabold text-black dark:text-white leading-tight">
+                    <h2 class="text-5xl font-extrabold text-black leading-tight">
                         Crafting
                         <br />
                         <span class="text-blue-600">Powerful</span>
