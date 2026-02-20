@@ -11,7 +11,7 @@
         @endif
 
         <div class="relative group">
-            <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-[2rem] blur opacity-20 group-focus-within:opacity-40 transition duration-500"></div>
+            <div class="absolute -inset-1 bg-linear-to-r from-blue-600 to-cyan-400 rounded-4xl blur opacity-20 group-focus-within:opacity-40 transition duration-500"></div>
             <div class="relative">
                 <div class="absolute inset-y-0 start-0 flex items-center ps-4 pointer-events-none">
                     <svg class="w-5 h-5 text-gray-400 group-focus-within:text-blue-500 transition-colors" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -28,7 +28,6 @@
                     placeholder="Mau cari artikel apa hari ini, Ryn?..."
                     autocomplete="off" />
 
-                {{-- Button --}}
                 <button
                     type="submit"
                     class="absolute end-2.5 bottom-2.5 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-2xl text-sm px-6 py-2 transition-all duration-300 shadow-lg shadow-blue-500/30">
@@ -46,7 +45,7 @@
         @endif
     </form>
 
-    <div class="py-4 px-4 mx-auto max-w-screen-xl lg:px-6">
+    <div class="py-4 px-4 mx-auto max-w-7xl lg:px-6">
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             @forelse ($posts as $p)
                 <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between">
@@ -68,6 +67,7 @@
                         <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
                             {{ Str::limit($p->body ?? $p->content, 120) }}
                         </p>
+
                     </div>
 
                     <div class="flex justify-between items-center mt-auto">
